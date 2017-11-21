@@ -2,6 +2,7 @@ const express 	= require('express');
 const hbs		= require('hbs');
 const fs		= require('fs');
 
+// heroku env setup
 const port = process.env.PORT || 3000;
 let app = express();
 
